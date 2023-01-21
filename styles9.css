@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika:wght@400;700&family=Cambay:wght@400;700&family=Courier+Prime:wght@400;700&family=Inter+Tight:wght@100;200;300;400;500;600;700&family=Patrick+Hand&family=Roboto:wght@100;400;500;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+body{
+    margin: 0;
+}
+.top-container{
+    background-color: #fb4e71;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.top-container-heading{
+    color: white;
+    font-size: 25px;
+    font-family:Andika;
+}
+.top-container-paragraph{
+    color: white;
+    font-size: 12px;
+    font-family: roboto;
+}
+.top-container-img{
+    height: 150px;
+    width: 180px;
+    padding-top: 15px;
+}
+.bottom-container{
+    background-color:#e6f6ff;
+    padding: 15px;
+}
+.bottom-container h1{
+    margin-top:0;
+    font-family: bree serif;
+    font-size: 25px;
+}
+.card{
+    background-color:white;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    border-radius: 15px;
+}
+.card img{
+    height:130px;
+    width: 120px;
+    border-radius: 8px;
+}
+.card h2{
+    font-size:15px;
+    color:#888888;
+    font-family: andika;
+
+}
+.card p{
+    font-size: 12px;
+    color: #323f4b;
+    font-family: roboto;
+}
+.card-content{
+    padding-left: 10px;
+}
+.card-image{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.videos-content{
+    display:flex;
+    flex-direction:row;
+}
+.videos-card{
+    margin-left:5px;
+}
+.videos-card img{
+    height:100px;
+    width: 120px;
+    border-radius: 10px;
+}
+.videos-card p{
+    font-size:12px;
+    font-family: roboto;
+}
